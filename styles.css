@@ -1,5 +1,42 @@
-h1{
+/* h1{
     font-size: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
+} */
+
+body{
+    widh: 50%;
+    heigh;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 6rem;
+   background-color: darksalmon;
+}
+section{
+      min-width: 50%;
+    max-height: 100vh;
+    border-radius: 20px;
+    background-color: rgb(238, 177, 98);
+    box-shadow: 1px 2px #333 
+}
+main{
+    min-width: 50%;
+    max-height: 100vh;
+  
+    background-color: rgb(225, 152, 159);
+   
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(design_5.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: hsla(0, 0%, 20%, 0.253);
+}
+h1{
+    font-weight: 900;
+    font-size: 5rem;
+    transform: uppercase;
 }
